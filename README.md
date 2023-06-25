@@ -5,7 +5,7 @@ Repository created to stream tweets written in portuguese and validate translati
 --> Twitter API for Academic Research, including Bearer Token
 
    
---> 5 Dictionaries in ".txt"format:
+#5 Dictionaries in ".txt"format:
 
 	--> Stopwords: words without relevant meaning
   
@@ -22,6 +22,7 @@ Repository created to stream tweets written in portuguese and validate translati
 --> 1 empty paste named "wordcloud"
 
 #CONTENTS:
+
 1 - SearchTwitter (Not enable yet)	
 
 2 - Filter_similarity
