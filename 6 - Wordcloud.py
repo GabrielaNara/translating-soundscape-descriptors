@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Mar 10 05:39:29 2023
-
-@author: ASUS
-"""
-
 import pandas as pd
 #!pip install wordcloud -q
 import matplotlib.pyplot as plt
