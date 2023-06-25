@@ -14,10 +14,11 @@ Repository created to stream tweets written in portuguese and validate translati
 --> 1 empty paste named "wordcloud"
 
 #CONTENTS:
-1 - SearchTwitter (COMING SOON)	
-2 - Filter_similarity	
-3 - Filter_ token_(portuguese version)	
-4 - Classificator  
-5 - Accuracy_test
+1 - SearchTwitter (Not enable yet)	
+2 - Filter_similarity
+3 - Filter_ token
+3 - Filter_ token_portuguese
+4 - Classificator (Not enable yet)
+5 - Accuracy_test (Not enable yet)
 6 - Wordcloud
 	
