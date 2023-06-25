@@ -4,8 +4,9 @@ import difflib
 # import csv
 data = pd.read_csv('data-twitter.csv')
 
-############### Filtering data process ##################
-########################################################
+############################################################
+############### Filtering duplicate tweets #################
+############################################################
 #------------------------------------------------------------------------------------
 #Removing "http" from tweets
 new = data["text"].str.split("http", n=1, expand=True)
@@ -22,7 +23,7 @@ data = data.sort_index()
 del data['index'] 
 
 #------------------------------------------------------------------------------------
-# OPTION 1: Filtering by similarity of sentences
+#Filtering by similarity of sentences
 similarity_level = 0.8
 for i in data.index:
     for distance in range(1,4):
@@ -38,16 +39,4 @@ for i in data.index:
 #data.to_excel(("/filtered_data.xlsx"), sheet_name='dados') 
 data.to_csv('data-filtered.csv')
 
-#------------------------------------------------------------------------------------
-'''
-# OPTION 2: Filtering by inserting a list of words
-# substring to be searched
-list_sub = ["carro de som", "carro do som", "Carro de som", "carro d som","Carro-de-som"]
-for sub in list_sub:
-    data["Indexes"]= data["text"].str.find(sub) 
-    df_mask=data['Indexes']==-1
-    filtered_df = data[df_mask]
-    data = filtered_df
-data.to_excel(("/filtered_data.xlsx"), sheet_name='dados') 
-'''
 
