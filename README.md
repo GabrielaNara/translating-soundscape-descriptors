@@ -3,14 +3,22 @@ Repository created to stream tweets written in portuguese and validate translati
 
 #INPUTS:				
 --> Twitter API for Academic Research, including Bearer Token
+
    
 --> 5 Dictionaries in ".txt"format:
+
 		--> Stopwords: words without relevant meaning
+  
 		--> Human: words clasified as human sounds
+  
     --> Techno:  words clasified as tecnological sounds
+    
     --> Nature:  words clasified as nature sounds
+    
     --> All_descriptors: all descriptors translated based on ISO 1913 descriptor terms in english. This words will be the characters to search.
+    
     --> Selected_descriptors: selected descriptors based on temporal analyses
+    
 --> 1 empty paste named "wordcloud"
 
 #CONTENTS:
